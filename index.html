@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entrenador Personal | Tu Mejor Versión</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #111, #333);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #222;
+        }
+        .services, .plans {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .about {
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .contact {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .contact a {
+            color: #00e0ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #111;
+            color: #aaa;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Alex Luna – Entrenador Personal</h1>
+        <p>Transforma tu cuerpo, mejora tu salud y alcanza tus objetivos</p>
+    </header>
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p class="about">
+            Soy Alex Luna, entrenador personal con formación en nutrición en un instituto de Rusia y estudiante de medicina.
+            Me especializo en entrenamiento para principiantes, pérdida de grasa, hipertrofia, salud y rehabilitación básica.
+            Trabajo con planes personalizados y acompañamiento online para ayudarte a lograr resultados reales y sostenibles.
+        </p>
+    </section>
+
+    <section>
+        <h2>Servicios</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Entrenamiento Personal</h3>
+                <p>Rutinas adaptadas a principiantes y personas que buscan mejorar su condición física de forma segura.</p>
+            </div>
+            <div class="card">
+                <h3>Planes Online</h3>
+                <p>Entrenamiento desde casa con seguimiento y ajustes según tu progreso.</p>
+            </div>
+            <div class="card">
+                <h3>Asesoría Nutricional</h3>
+                <p>Orientación nutricional básica y personalizada enfocada en salud y rendimiento.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Planes</h2>
+        <div class="plans">
+            <div class="card">
+                <h3>Básico – desde 200 Bs</h3>
+                <p>Rutina de entrenamiento personalizada.</p>
+            </div>
+            <div class="card">
+                <h3>Intermedio – desde 500 Bs</h3>
+                <p>Rutina + asesoría nutricional básica.</p>
+            </div>
+            <div class="card">
+                <h3>Avanzado – hasta 800 Bs</h3>
+                <p>Rutina, asesoría nutricional personalizada y acompañamiento online completo.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="contact">
+        <h2>Contacto</h2>
+        <p>📍 Santa Cruz, Bolivia</p>
+        <p>📱 WhatsApp: <a href="https://wa.me/59172605664">72605664</a></p>
+        <p>📷 Instagram: <a href="https://instagram.com">@proximamente</a></p>
+    </div>
+
+    <footer>
+        <p>© 2026 Entrenador Personal · Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
